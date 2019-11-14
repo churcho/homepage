@@ -11,7 +11,7 @@ defmodule Twitch.WebhookSubscriptions.Subscription do
     field(:expires_at, :naive_datetime)
     field(:user_id, :integer)
     field(:confirmed, :boolean)
-    # field(:resubscribe, :boolean)
+    field(:resubscribe, :boolean)
     timestamps()
   end
 
